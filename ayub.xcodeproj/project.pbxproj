@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39BDD10750105E51A184C46E /* Pods_ayub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79B36DFD10B2A8FED805BCF /* Pods_ayub.framework */; };
+		78F36A1A17C39B0BA7DFFC00 /* Pods_ayub_ayubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E69F11E4CB6C17B0B9991B97 /* Pods_ayub_ayubUITests.framework */; };
+		E359A7B22734EC16000D0AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7B12734EC16000D0AB8 /* AppDelegate.swift */; };
+		E359A7B42734EC16000D0AB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7B32734EC16000D0AB8 /* SceneDelegate.swift */; };
+		E359A7B62734EC16000D0AB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7B52734EC16000D0AB8 /* ViewController.swift */; };
+		E359A7B92734EC16000D0AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E359A7B72734EC16000D0AB8 /* Main.storyboard */; };
+		E359A7BB2734EC19000D0AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E359A7BA2734EC19000D0AB8 /* Assets.xcassets */; };
+		E359A7BE2734EC19000D0AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E359A7BC2734EC19000D0AB8 /* LaunchScreen.storyboard */; };
+		E359A7C92734EC19000D0AB8 /* ayubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7C82734EC19000D0AB8 /* ayubTests.swift */; };
+		E359A7D32734EC19000D0AB8 /* ayubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7D22734EC19000D0AB8 /* ayubUITests.swift */; };
+		E359A7D52734EC19000D0AB8 /* ayubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7D42734EC19000D0AB8 /* ayubUITestsLaunchTests.swift */; };
+		E359A7E22734FA12000D0AB8 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7E12734FA12000D0AB8 /* LoginTableViewController.swift */; };
+		E359A7E527351726000D0AB8 /* string+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7E427351726000D0AB8 /* string+Extension.swift */; };
+		E359A7E727351833000D0AB8 /* UIAlertController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7E627351832000D0AB8 /* UIAlertController + Extension.swift */; };
+		E359A7E9273518DF000D0AB8 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359A7E8273518DF000D0AB8 /* UIViewController.swift */; };
+		E38503C927365EB400E71CF3 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38503C827365EB400E71CF3 /* SignupViewController.swift */; };
+		E3B55DF6614320B07BAD731A /* Pods_ayubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53EDEF2FB1DBCEE2ED076B03 /* Pods_ayubTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E359A7C52734EC19000D0AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E359A7A62734EC16000D0AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E359A7AD2734EC16000D0AB8;
+			remoteInfo = ayub;
+		};
+		E359A7CF2734EC19000D0AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E359A7A62734EC16000D0AB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E359A7AD2734EC16000D0AB8;
+			remoteInfo = ayub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53EDEF2FB1DBCEE2ED076B03 /* Pods_ayubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ayubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EBAB79CCF8269D83974D7E /* Pods-ayub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ayub.release.xcconfig"; path = "Target Support Files/Pods-ayub/Pods-ayub.release.xcconfig"; sourceTree = "<group>"; };
+		7E1B3014CE7E11F5B2205FCE /* Pods-ayubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ayubTests.debug.xcconfig"; path = "Target Support Files/Pods-ayubTests/Pods-ayubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C140620DAA5DD85463CF35A /* Pods-ayub-ayubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ayub-ayubUITests.release.xcconfig"; path = "Target Support Files/Pods-ayub-ayubUITests/Pods-ayub-ayubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB83A48A62FFF1258C925E07 /* Pods-ayub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ayub.debug.xcconfig"; path = "Target Support Files/Pods-ayub/Pods-ayub.debug.xcconfig"; sourceTree = "<group>"; };
+		D08970209D296CF6248F7C80 /* Pods-ayubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ayubTests.release.xcconfig"; path = "Target Support Files/Pods-ayubTests/Pods-ayubTests.release.xcconfig"; sourceTree = "<group>"; };
+		E359A7AE2734EC16000D0AB8 /* ayub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ayub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E359A7B12734EC16000D0AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E359A7B32734EC16000D0AB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E359A7B52734EC16000D0AB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E359A7B82734EC16000D0AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E359A7BA2734EC19000D0AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E359A7BD2734EC19000D0AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E359A7BF2734EC19000D0AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E359A7C42734EC19000D0AB8 /* ayubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ayubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E359A7C82734EC19000D0AB8 /* ayubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ayubTests.swift; sourceTree = "<group>"; };
+		E359A7CE2734EC19000D0AB8 /* ayubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ayubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E359A7D22734EC19000D0AB8 /* ayubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ayubUITests.swift; sourceTree = "<group>"; };
+		E359A7D42734EC19000D0AB8 /* ayubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ayubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E359A7E12734FA12000D0AB8 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginTableViewController.swift; path = ayub/Login/LoginTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		E359A7E427351726000D0AB8 /* string+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "string+Extension.swift"; sourceTree = "<group>"; };
+		E359A7E627351832000D0AB8 /* UIAlertController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController + Extension.swift"; sourceTree = "<group>"; };
+		E359A7E8273518DF000D0AB8 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E35AE9D2152DD868515BD29A /* Pods-ayub-ayubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ayub-ayubUITests.debug.xcconfig"; path = "Target Support Files/Pods-ayub-ayubUITests/Pods-ayub-ayubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E38503C827365EB400E71CF3 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = SOURCE_ROOT; };
+		E69F11E4CB6C17B0B9991B97 /* Pods_ayub_ayubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ayub_ayubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79B36DFD10B2A8FED805BCF /* Pods_ayub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ayub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E359A7AB2734EC16000D0AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BDD10750105E51A184C46E /* Pods_ayub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E359A7C12734EC19000D0AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B55DF6614320B07BAD731A /* Pods_ayubTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E359A7CB2734EC19000D0AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F36A1A17C39B0BA7DFFC00 /* Pods_ayub_ayubUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B47A60D363F0A76BB855040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E79B36DFD10B2A8FED805BCF /* Pods_ayub.framework */,
+				E69F11E4CB6C17B0B9991B97 /* Pods_ayub_ayubUITests.framework */,
+				53EDEF2FB1DBCEE2ED076B03 /* Pods_ayubTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DB285BE4115CA37351823D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB83A48A62FFF1258C925E07 /* Pods-ayub.debug.xcconfig */,
+				75EBAB79CCF8269D83974D7E /* Pods-ayub.release.xcconfig */,
+				E35AE9D2152DD868515BD29A /* Pods-ayub-ayubUITests.debug.xcconfig */,
+				8C140620DAA5DD85463CF35A /* Pods-ayub-ayubUITests.release.xcconfig */,
+				7E1B3014CE7E11F5B2205FCE /* Pods-ayubTests.debug.xcconfig */,
+				D08970209D296CF6248F7C80 /* Pods-ayubTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E359A7A52734EC16000D0AB8 = {
+			isa = PBXGroup;
+			children = (
+				E359A7B02734EC16000D0AB8 /* ayub */,
+				E359A7C72734EC19000D0AB8 /* ayubTests */,
+				E359A7D12734EC19000D0AB8 /* ayubUITests */,
+				E359A7AF2734EC16000D0AB8 /* Products */,
+				8DB285BE4115CA37351823D5 /* Pods */,
+				4B47A60D363F0A76BB855040 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E359A7AF2734EC16000D0AB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E359A7AE2734EC16000D0AB8 /* ayub.app */,
+				E359A7C42734EC19000D0AB8 /* ayubTests.xctest */,
+				E359A7CE2734EC19000D0AB8 /* ayubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E359A7B02734EC16000D0AB8 /* ayub */ = {
+			isa = PBXGroup;
+			children = (
+				E38503C727365DF500E71CF3 /* Sign up */,
+				E38503C627365DE600E71CF3 /* Login */,
+				E359A7E3273516D4000D0AB8 /* Extension */,
+				E359A7B12734EC16000D0AB8 /* AppDelegate.swift */,
+				E359A7B32734EC16000D0AB8 /* SceneDelegate.swift */,
+				E359A7B52734EC16000D0AB8 /* ViewController.swift */,
+				E359A7B72734EC16000D0AB8 /* Main.storyboard */,
+				E359A7BA2734EC19000D0AB8 /* Assets.xcassets */,
+				E359A7BC2734EC19000D0AB8 /* LaunchScreen.storyboard */,
+				E359A7BF2734EC19000D0AB8 /* Info.plist */,
+			);
+			path = ayub;
+			sourceTree = "<group>";
+		};
+		E359A7C72734EC19000D0AB8 /* ayubTests */ = {
+			isa = PBXGroup;
+			children = (
+				E359A7C82734EC19000D0AB8 /* ayubTests.swift */,
+			);
+			path = ayubTests;
+			sourceTree = "<group>";
+		};
+		E359A7D12734EC19000D0AB8 /* ayubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E359A7D22734EC19000D0AB8 /* ayubUITests.swift */,
+				E359A7D42734EC19000D0AB8 /* ayubUITestsLaunchTests.swift */,
+			);
+			path = ayubUITests;
+			sourceTree = "<group>";
+		};
+		E359A7E3273516D4000D0AB8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E359A7E427351726000D0AB8 /* string+Extension.swift */,
+				E359A7E627351832000D0AB8 /* UIAlertController + Extension.swift */,
+				E359A7E8273518DF000D0AB8 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E38503C627365DE600E71CF3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E359A7E12734FA12000D0AB8 /* LoginTableViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E38503C727365DF500E71CF3 /* Sign up */ = {
+			isa = PBXGroup;
+			children = (
+				E38503C827365EB400E71CF3 /* SignupViewController.swift */,
+			);
+			path = "Sign up";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E359A7AD2734EC16000D0AB8 /* ayub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E359A7D82734EC19000D0AB8 /* Build configuration list for PBXNativeTarget "ayub" */;
+			buildPhases = (
+				70E78BF2E1FC83DAD1CB1588 /* [CP] Check Pods Manifest.lock */,
+				E359A7AA2734EC16000D0AB8 /* Sources */,
+				E359A7AB2734EC16000D0AB8 /* Frameworks */,
+				E359A7AC2734EC16000D0AB8 /* Resources */,
+				28A79872C90F8BF980804860 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ayub;
+			productName = ayub;
+			productReference = E359A7AE2734EC16000D0AB8 /* ayub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E359A7C32734EC19000D0AB8 /* ayubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E359A7DB2734EC19000D0AB8 /* Build configuration list for PBXNativeTarget "ayubTests" */;
+			buildPhases = (
+				78CF85F3F6B8110590931333 /* [CP] Check Pods Manifest.lock */,
+				E359A7C02734EC19000D0AB8 /* Sources */,
+				E359A7C12734EC19000D0AB8 /* Frameworks */,
+				E359A7C22734EC19000D0AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E359A7C62734EC19000D0AB8 /* PBXTargetDependency */,
+			);
+			name = ayubTests;
+			productName = ayubTests;
+			productReference = E359A7C42734EC19000D0AB8 /* ayubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E359A7CD2734EC19000D0AB8 /* ayubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E359A7DE2734EC19000D0AB8 /* Build configuration list for PBXNativeTarget "ayubUITests" */;
+			buildPhases = (
+				116D25A30ECFBD13D689CDAC /* [CP] Check Pods Manifest.lock */,
+				E359A7CA2734EC19000D0AB8 /* Sources */,
+				E359A7CB2734EC19000D0AB8 /* Frameworks */,
+				E359A7CC2734EC19000D0AB8 /* Resources */,
+				BED6854F80AFEDD86FE7A9D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E359A7D02734EC19000D0AB8 /* PBXTargetDependency */,
+			);
+			name = ayubUITests;
+			productName = ayubUITests;
+			productReference = E359A7CE2734EC19000D0AB8 /* ayubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E359A7A62734EC16000D0AB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E359A7AD2734EC16000D0AB8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E359A7C32734EC19000D0AB8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E359A7AD2734EC16000D0AB8;
+					};
+					E359A7CD2734EC19000D0AB8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E359A7AD2734EC16000D0AB8;
+					};
+				};
+			};
+			buildConfigurationList = E359A7A92734EC16000D0AB8 /* Build configuration list for PBXProject "ayub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E359A7A52734EC16000D0AB8;
+			productRefGroup = E359A7AF2734EC16000D0AB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E359A7AD2734EC16000D0AB8 /* ayub */,
+				E359A7C32734EC19000D0AB8 /* ayubTests */,
+				E359A7CD2734EC19000D0AB8 /* ayubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E359A7AC2734EC16000D0AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E359A7BE2734EC19000D0AB8 /* LaunchScreen.storyboard in Resources */,
+				E359A7BB2734EC19000D0AB8 /* Assets.xcassets in Resources */,
+				E359A7B92734EC16000D0AB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E359A7C22734EC19000D0AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E359A7CC2734EC19000D0AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116D25A30ECFBD13D689CDAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ayub-ayubUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28A79872C90F8BF980804860 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ayub/Pods-ayub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ayub/Pods-ayub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ayub/Pods-ayub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E78BF2E1FC83DAD1CB1588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ayub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78CF85F3F6B8110590931333 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ayubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED6854F80AFEDD86FE7A9D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ayub-ayubUITests/Pods-ayub-ayubUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ayub-ayubUITests/Pods-ayub-ayubUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ayub-ayubUITests/Pods-ayub-ayubUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E359A7AA2734EC16000D0AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E359A7E9273518DF000D0AB8 /* UIViewController.swift in Sources */,
+				E359A7B62734EC16000D0AB8 /* ViewController.swift in Sources */,
+				E38503C927365EB400E71CF3 /* SignupViewController.swift in Sources */,
+				E359A7E22734FA12000D0AB8 /* LoginTableViewController.swift in Sources */,
+				E359A7E727351833000D0AB8 /* UIAlertController + Extension.swift in Sources */,
+				E359A7E527351726000D0AB8 /* string+Extension.swift in Sources */,
+				E359A7B22734EC16000D0AB8 /* AppDelegate.swift in Sources */,
+				E359A7B42734EC16000D0AB8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E359A7C02734EC19000D0AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E359A7C92734EC19000D0AB8 /* ayubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E359A7CA2734EC19000D0AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E359A7D32734EC19000D0AB8 /* ayubUITests.swift in Sources */,
+				E359A7D52734EC19000D0AB8 /* ayubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E359A7C62734EC19000D0AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E359A7AD2734EC16000D0AB8 /* ayub */;
+			targetProxy = E359A7C52734EC19000D0AB8 /* PBXContainerItemProxy */;
+		};
+		E359A7D02734EC19000D0AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E359A7AD2734EC16000D0AB8 /* ayub */;
+			targetProxy = E359A7CF2734EC19000D0AB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E359A7B72734EC16000D0AB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E359A7B82734EC16000D0AB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E359A7BC2734EC19000D0AB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E359A7BD2734EC19000D0AB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E359A7D62734EC19000D0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E359A7D72734EC19000D0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E359A7D92734EC19000D0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB83A48A62FFF1258C925E07 /* Pods-ayub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ayub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayub.ayub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E359A7DA2734EC19000D0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EBAB79CCF8269D83974D7E /* Pods-ayub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ayub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayub.ayub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E359A7DC2734EC19000D0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1B3014CE7E11F5B2205FCE /* Pods-ayubTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayub.ayubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ayub.app/ayub";
+			};
+			name = Debug;
+		};
+		E359A7DD2734EC19000D0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08970209D296CF6248F7C80 /* Pods-ayubTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayub.ayubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ayub.app/ayub";
+			};
+			name = Release;
+		};
+		E359A7DF2734EC19000D0AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35AE9D2152DD868515BD29A /* Pods-ayub-ayubUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayub.ayubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ayub;
+			};
+			name = Debug;
+		};
+		E359A7E02734EC19000D0AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C140620DAA5DD85463CF35A /* Pods-ayub-ayubUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayub.ayubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ayub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E359A7A92734EC16000D0AB8 /* Build configuration list for PBXProject "ayub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E359A7D62734EC19000D0AB8 /* Debug */,
+				E359A7D72734EC19000D0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E359A7D82734EC19000D0AB8 /* Build configuration list for PBXNativeTarget "ayub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E359A7D92734EC19000D0AB8 /* Debug */,
+				E359A7DA2734EC19000D0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E359A7DB2734EC19000D0AB8 /* Build configuration list for PBXNativeTarget "ayubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E359A7DC2734EC19000D0AB8 /* Debug */,
+				E359A7DD2734EC19000D0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E359A7DE2734EC19000D0AB8 /* Build configuration list for PBXNativeTarget "ayubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E359A7DF2734EC19000D0AB8 /* Debug */,
+				E359A7E02734EC19000D0AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E359A7A62734EC16000D0AB8 /* Project object */;
+}

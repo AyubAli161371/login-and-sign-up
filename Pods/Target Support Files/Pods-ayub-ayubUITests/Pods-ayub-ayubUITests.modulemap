@@ -1,0 +1,6 @@
+framework module Pods_ayub_ayubUITests {
+  umbrella header "Pods-ayub-ayubUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
